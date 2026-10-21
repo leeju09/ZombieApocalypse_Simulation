@@ -39,19 +39,19 @@ The round repeats until one side is wiped out. A detailed report at the end show
 ---
 ## Project Structure
 
-├── Battle.java       # Combat logic (weapon dispatch, damage, dodge, armor)
+ - Battle.java       # Combat logic (weapon dispatch, damage, dodge, armor)
+ 
+ - GameConfig.java   # All game constants (probabilities, damage values)
 
-├── GameConfig.java   # All game constants (probabilities, damage values)
+ -  Main.java         # Simulation entry point and battle loop
 
-├── Main.java         # Simulation entry point and battle loop
+ - Person.java       # Survivor state and stats tracking
 
-├── Person.java       # Survivor state and stats tracking
+ - RandomUtil.java   # Random number helpers
 
-├── RandomUtil.java   # Random number helpers
+ - Zombie.java       # Zombie state
 
-├── Zombie.java       # Zombie state
-
-└── README.md
+ - README.md
 
 ## Class Responsibilities (SRP)
 Class	Responsibility
