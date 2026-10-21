@@ -145,7 +145,7 @@ OR
     - Per the spec's "encouraged extras" section, I added: shotgun, knife, armor, dodge, medkits, food healing, and full stat tracking.
 
 ## Sample Output
-[Open the text file](path/to/ZombieSim_text.txt)
+[View Output](ZombieSim_text.txt)
 ## Reflection
 
 The hardest part of this project was not writing the code. It was recognizing when the code, despite following the rule was failing at the assignment's purpose.
