@@ -5,7 +5,9 @@ A turn-based zombie survival simulation written in Java. Survivors fight off a z
 Built for **Unit 6: Real-World Modeling with Custom Classes**.
 
 Assignment at North Hennepin Community College
+
 Course: CSCI 2001-52 Object Oriented Programming
+
 Fall Semester 2026
 
 ---
