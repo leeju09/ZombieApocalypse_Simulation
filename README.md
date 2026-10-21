@@ -150,3 +150,24 @@ OR
 
 The hardest part of this project was not writing the code. It was recognizing when the code, despite following the rule was failing at the assignment's purpose.
 
+The first version of this simulation followed the specification exactly. Every survivor died by day 4. the output was technically correct functionally meaningless: no one ever ran out of ammo, no one ever healed, no one ever used their fist. The instant-death rules dominated everything else.
+
+Fixing this required a judgement call. I could leave the spec's rules intact and submit something that technically passes while failing the assignment's purpose. Or I could change the rules and document change. I choose the second option and documented the deviation in the code. 
+
+Key lessons:
+
+- Following the rules and making something that works are different goals. A simulation can satisfy every requirement while still failing to model what it was supposed to model.
+
+- Balancing a simulation requires iteration. Finding numbers where 7 out of 10 survivors live took multiple runs, adjustments, and re-runs.
+
+- Document deviations from a spec. When you change something from the requirements, make the reasoning visible in the code. Transparency is more valuable than silent compliance.
+
+- Small bugs hide in code that looks correct. At one point, the dodge mechanic was rolling twice per hit (once in the caller, once in the damage method). The code ran fine and the output looked plausible. It only surfaced by tracing the execution path carefully.
+
+## Acknowledgments
+
+- **Specification:** *Intro to Zombie — Person and Zombie Classes* (D2L) and *Unit 6 Study Guide — Classes*
+- **Course:** Class lecture notes
+- **Textbook:** *Java: How to Program — An Objects Neutral Approach*, 12th Edition, by Paul Deitel and Harvey Deitel. ISBN: 978-0-13-759849-6
+- **Language:** Java 17+
+- **Libraries:** None — this project uses only the Java Standard Library
